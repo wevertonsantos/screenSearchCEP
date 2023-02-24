@@ -1,0 +1,29 @@
+@import url('main.css');
+
+main{
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#container{
+	display: flex;
+	align-items: center;
+
+	height: 85vh;
+	width: 70vw;
+
+	border-radius: 2em;
+	background: var(--bg-container);
+}
+
+.section-hello{
+	background: var(--bg-section);
+	padding: 0 5em;
+	border-radius: 2em 0 0 2em;
+
+	height: 85vh;
+	width: 20vw;
+}
