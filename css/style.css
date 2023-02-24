@@ -3,8 +3,9 @@
 @import url('login.css');
 
 :root{
-	--bg-section: rgba(100, 190, 255, .8);
-	--bg-body: rgba(210, 210, 210, 0.1);
+	--blue: rgba(100, 190, 255);
+	--bg-body: rgba(240, 240, 240, .9);
+	--grey: rgba(150, 150, 150);
 	--white: #ffffff;
 }
 
@@ -34,8 +35,8 @@ main{
 	display: flex;
 	align-items: center;
 
-	height: 85vh;
-	width: 70vw;
+	height: 70vh;
+	width: 80vw;
 
 	border-radius: 2em;
 }

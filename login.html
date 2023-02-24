@@ -10,21 +10,28 @@
 		<main>
 			<div id="container">
 				<section class="section-welcome">
-					<h1 class="section-welcome_title">Welcome</h1>
-					<br>
-					<p class="section-welcome_p">Happy to see you<br>Create your account</p>
-					<br>
-					<button class="btn-signup">SIGN UP</button>
+					<h1 class="section-welcome_title">Welcome!</h1>
+					<p class="section-welcome_subtitle">Happy to see you</p>
+					<p class="section-welcome_create">Create your account:</p>
+					<a href="register.html">
+						<button class="btn-signup">SIGN UP</button>
+					</a>
 				</section>
 				<section class="section-login">
-					<h1>Login</h1>
-					<h2>Login to your account</h2>
+					<h1 class="section-login_title">Login</h1>
+					<h2 class="section-login_subtitle">Login to your account:</h2>
 					<form>
-						<label>
-							<span>Username</span>
-							<br>
-							<input type="text" name="name" placeholder="Username or Email">
-						</label>
+						<div id="form">
+							<label>
+								<input type="text" name="name" placeholder="Name" id="name">
+							</label>
+							<label>
+								<input type="password" name="password" placeholder="Password" id="password">
+							</label>
+							<a href="login.html">
+								<button class="btn-signin">SIGN IN</button>
+							</a>
+						</div>
 					</form>
 				</section>
 			</div>

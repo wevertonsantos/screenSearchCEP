@@ -5,21 +5,21 @@
 .section-welcome{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	text-align: center;
 
-	background: var(--bg-section);
-	padding: 0 5em;
+	background: var(--blue);
 	border-radius: 2em 0 0 2em;
 
-	height: 85vh;
-	width: 30%;
+	height: 100%;
+	width: 40%;
 
 	color: var(--white);
 }
 
 .section-welcome_title{
+	margin-bottom: 10px;
 	font-size: 3em;
 }
 
@@ -28,6 +28,7 @@
 }
 
 .btn-signup{
+	margin-top: 10px;
 	background: transparent;
 	color: var(--white);
 
@@ -42,14 +43,65 @@
 /* section login */
 
 .section-login{
-	height: 85vh;
-	width: 70%;
+	height: 100%;
+	width: 60%;
 	border-radius: 0 2em 2em 0;
 
-	background: red;
+	background: var(--white);
+	color: var(--grey);
 
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+}
+
+.section-login_title{
+	color: rgba(100, 190, 255);
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+
+.section-login_subtitle{
+	margin-bottom: 10px;
+}
+
+/* form */
+
+#form{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 1em;
+}
+
+#name,#password{
+	border: none;
+	border-bottom: 1px solid var(--grey);
+	padding: 1em 1em;
+}
+
+#name{
+	margin-bottom: 5px;
+}
+
+::placeholder{
+	color: var(--grey);
+}
+
+.btn-signin{
+	margin-top: 20px;
+	background: transparent;
+	color: var(--blue);
+
+	border: none;
+
+	padding: .5em 1.5em;
+
+	cursor: pointer;
+}
+
+.fa-regular{
+	font-size: 1em;
 }
