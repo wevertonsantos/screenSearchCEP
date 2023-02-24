@@ -1,29 +1,55 @@
 @import url('main.css');
 
-main{
-	height: 100vh;
+/* section welcome */
 
+.section-welcome{
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
+	text-align: center;
 
-#container{
-	display: flex;
-	align-items: center;
-
-	height: 85vh;
-	width: 70vw;
-
-	border-radius: 2em;
-	background: var(--bg-container);
-}
-
-.section-hello{
 	background: var(--bg-section);
 	padding: 0 5em;
 	border-radius: 2em 0 0 2em;
 
 	height: 85vh;
-	width: 20vw;
+	width: 30%;
+
+	color: var(--white);
+}
+
+.section-welcome_title{
+	font-size: 3em;
+}
+
+.section-welcome_p{
+	font-size: 1em;
+}
+
+.btn-signup{
+	background: transparent;
+	color: var(--white);
+
+	border-radius: 100px;
+	border: solid 1px var(--white);
+
+	padding: .5em 1.5em;
+
+	cursor: pointer;
+}
+
+/* section login */
+
+.section-login{
+	height: 85vh;
+	width: 70%;
+	border-radius: 0 2em 2em 0;
+
+	background: red;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
