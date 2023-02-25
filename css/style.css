@@ -1,11 +1,12 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('login.css');
+@import url('register.css');
 
 :root{
-	--blue: rgba(100, 190, 255);
+	--purple: rgba(100, 120, 255);
 	--bg-body: rgba(240, 240, 240, .9);
-	--grey: rgba(150, 150, 150);
+	--spacial: rgba(100, 100, 100);
 	--white: #ffffff;
 }
 

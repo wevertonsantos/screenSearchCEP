@@ -1,4 +1,4 @@
-@import url('main.css');
+@import url('style.css');
 
 /* section welcome */
 
@@ -9,7 +9,7 @@
 	align-items: center;
 	text-align: center;
 
-	background: var(--blue);
+	background: var(--purple);
 	border-radius: 2em 0 0 2em;
 
 	height: 100%;
@@ -48,7 +48,7 @@
 	border-radius: 0 2em 2em 0;
 
 	background: var(--white);
-	color: var(--grey);
+	color: var(--spacial);
 
 	display: flex;
 	justify-content: center;
@@ -60,6 +60,8 @@
 	color: rgba(100, 190, 255);
 	margin-bottom: 1em;
 	font-size: 3em;
+
+	color: var(--purple);
 }
 
 .section-login_subtitle{
@@ -76,24 +78,29 @@
 	margin-top: 1em;
 }
 
+#name::placeholder{
+	color: var(--spacial);
+}
+
+#password::placeholder{
+	color: var(--spacial);
+}
+
 #name,#password{
 	border: none;
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--purple);
 	padding: 1em 1em;
+	color: var(--spacial);
 }
 
 #name{
 	margin-bottom: 5px;
 }
 
-::placeholder{
-	color: var(--grey);
-}
-
 .btn-signin{
 	margin-top: 20px;
 	background: transparent;
-	color: var(--blue);
+	color: var(--purple);
 
 	border: none;
 

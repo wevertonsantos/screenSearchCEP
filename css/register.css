@@ -1,1 +1,59 @@
-@import url('css/main.css');
+@import url('style.css');
+
+#container-register{
+	display: flex;
+
+	height: 60vh;
+	width: 50vw;
+
+	justify-content: center;
+	align-items: center;
+}
+
+#section-register{
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background: var(--purple);
+	border-radius: 2em;
+	padding: 2em;
+
+	height: 100%;
+	width: 100%;
+
+	color: var(--white);
+}
+
+label{
+	margin: 0 1em;
+}
+
+.text-account{
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+
+::placeholder{
+	color: var(--white);
+}
+
+.input-text{
+	color: var(--white);
+
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid var(--white);
+	padding: 1em 0;
+}
+
+#submit-register{
+	background: none;
+	border: none;
+	margin: 1em 0;
+	color: var(--white);
+	cursor: pointer;
+}
