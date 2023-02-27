@@ -12,3 +12,4 @@ const consultaCEP = fetch('https://viacep.com.br/ws/01001252/json/')
             console.log('Tente outro CEP: tem que ter {8} dígitos, por exemplo: 01001000')
         }
     })
+    .finally(mensagem => console.log('mensagem'))
