@@ -18,10 +18,18 @@
 	color: var(--white);
 }
 
+.section-welcome_title{
+	margin-bottom: 10px;
+	font-size: 3em;
+}
+
 @media screen and (max-width: 960px){
 	.section-welcome{
 		width: 80vw;
 		border-radius: 2em 0 0 2em;
+	}
+	.section-welcome_title{
+	font-size: 2em;
 	}
 }
 
@@ -30,11 +38,9 @@
 		width: 80vw;
 		border-radius: 0 0 2em 2em;
 	}
-}
-
-.section-welcome_title{
-	margin-bottom: 10px;
-	font-size: 3em;
+	.section-welcome_title{
+	font-size: 2em;
+	}
 }
 
 .section-welcome_p{
@@ -70,20 +76,6 @@
 	align-items: center;
 }
 
-@media screen and (max-width: 960px){
-	.section-login{
-		width: 80vw;
-		border-radius: 0 2em 2em 0;
-	}
-}
-
-@media screen and (max-width: 400px){
-	.section-login{
-		width: 80vw;
-		border-radius: 2em 2em 0 0;
-	}
-}
-
 .section-login_title{
 	color: rgba(100, 190, 255);
 	margin-bottom: 1em;
@@ -92,9 +84,24 @@
 	color: var(--purple);
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 960px){
+	.section-login{
+		width: 80vw;
+		border-radius: 0 2em 2em 0;
+	}
 	.section-login_title{
 		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.section-login{
+		width: 80vw;
+		border-radius: 2em 2em 0 0;
+	}
+	.section-login_title{
+		font-size: 2em;
+		margin: .5em 0;
 	}
 }
 

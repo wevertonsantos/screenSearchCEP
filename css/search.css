@@ -88,8 +88,8 @@ label{
 		height: 100%;
 	}
 	.create{
+		margin-bottom: 1em;
 		border-radius: 2em 2em 0 0;
-		margin-bottom: 3em;
 	}
 	#submit-cep{
 		margin: 2em;
@@ -99,5 +99,8 @@ label{
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 560px){
+	.create{
+		margin-bottom: 1em;
+	}
 }
