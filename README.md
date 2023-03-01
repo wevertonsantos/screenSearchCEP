@@ -1,3 +1,3 @@
-<h1> page login and register consuming API and treating datas API VIACEP </h1>
+<h1> page login and search CEP, webservices treating datas </h1>
 
-https://wevertonsantos.github.io/screenLoginRegister/
+https://wevertonsantos.github.io/screenSearchCEP/
