@@ -19,10 +19,15 @@
     // async await
 
 	async function buscaEndereco(){
-		const consultaAsync = await fetch('https://viacep.com.br/ws/01001000/json/')
-		const consultaConvert = await consultaAsync.json();
-
-		console.log(consultaConvert);
+		try{
+			const consultaAsync = await fetch('https://viacep.com.br/ws/01001250/json/');
+			const consultaConvert = await consultaAsync.json();
+			if (consultaConvert.erro) {
+				throw Error('Cep não existente!');
+			}
+		}catch (erro){
+			console.log(erro)
+		}
 	}
 
 buscaEndereco()
