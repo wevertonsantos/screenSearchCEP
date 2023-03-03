@@ -11,27 +11,29 @@
         // Get value of element CEP
         const valueCep = inputCep.value
 
+        insertDatas(requestAsync(valueCep));
+
         // URL for fetch
-        const url = `https://viacep.com.br/ws/${valueCep}/json/`
+        // const url = `https://viacep.com.br/ws/${valueCep}/json/`
 
-        // Request and fuction for insert data in elements
-        fetch(url)
-            .then(response => response.json())
-            .then(data => {
+        // // Request and fuction for insert data in elements
+        // fetch(url)
+        //     .then(response => response.json())
+        //     .then(data => {
 
-                    if (data.erro){
-                        alert('CEP INVALID')
-                        return;
-                    }
+        //             if (data.erro){
+        //                 alert('CEP INVALID')
+        //                 return;
+        //             }
 
-                    insertDatas(data)
-                })
+        //             insertDatas(data)
+        //         })
 
         })
 
     // Function for insert datas in elements
 
-        function insertDatas(data){
+    function insertDatas(data){
 
             // Get elements for insert datas
 
@@ -44,3 +46,22 @@
             state.value = data.uf
 
         }
+
+    // Function async await request url
+
+    async function requestAsync(valueCep){
+        try{
+            const webserviceUrl = await `https://viacep.com.br/ws/${valueCep}/json/`;
+            const webserviceForJson = await webserviceUrl.json();
+
+            if (webserviceForJson.erro){
+                   alert('CEP INVALID')
+            }
+
+            return webserviceForJson;
+
+        }catch (erro){
+            console.log(erro)
+        }
+    }
+
