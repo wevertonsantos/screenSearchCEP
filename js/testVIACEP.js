@@ -32,10 +32,8 @@
 			}
 	}
 
-	// Promise.all	
-
-// ceps = ['01001000', '01001001']
-// const conjuntoCeps = ceps.map(valores => buscaEndereco(valores))
-// console.log(conjuntoCeps)
-// Promise.all(conjuntoCeps).then(respostas => console.log(respostas))
+ceps = ['01001000', '01001001']
+const conjuntoCeps = ceps.map(valores => buscaEndereco(valores))
+console.log(conjuntoCeps)
+Promise.all(conjuntoCeps).then(respostas => console.log(respostas))
 
