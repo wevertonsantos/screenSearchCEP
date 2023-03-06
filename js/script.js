@@ -1,3 +1,5 @@
+// Code synchronous
+
     //  Button of search
     const btnSearch = document.querySelector('#submit-cep')
 
@@ -20,10 +22,11 @@
             .then(data => {
 
                     if (data.erro){
-                        alert('CEP INVALID')
+                        alert('CEP INVALID, TRY AGAIN')
                         return;
                     }
 
+                    // Function insert data in inputs
                     insertDatas(data)
                 })
 
