@@ -20,8 +20,8 @@
 
 	async function buscaEndereco(cep){
 		try{
-			const consultaAsync = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
-			const consultaConvert = await consultaAsync.json();
+			const consultaConvert = await fetch(`https://viacep.com.br/ws/${cep}/json/`)
+			.then(response => response.json());
 
 			if (consultaConvert.erro) {
 				throw Error('Cep não existente!');
