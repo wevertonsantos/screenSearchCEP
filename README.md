@@ -1,6 +1,6 @@
 <h1> Página de login com uma segunda página para procura de CEP </h1>
 
-<h2> <ul><li>O que foi usado no desenvolvimento do site?</li></ul> </h2>
+<h2> O que foi usado no desenvolvimento do site?</h2>
 
 <p>Techs:</p>
 
@@ -10,7 +10,7 @@
   <li>Javascript</li>
 </ul>
 
-<h2> <ul><li> Algumas funções importantes para o desenvolvimento </ul></li> </h2>
+<h2>Algumas funções importantes para o desenvolvimento</h2>
 
 <ul>
   <li>Async (){ await } = programação assíncrona, executar tarefas em segundo plano.</li>
