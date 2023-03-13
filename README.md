@@ -1,6 +1,6 @@
 <h1> Página de login com uma segunda página para procura de CEP </h1>
 
-<h2> O que foi usado no desenvolvimento do site?</h2>
+<h2> <ul><li> O que foi usado no desenvolvimento do site? </li></ul></h2>
 
 <p>Techs:</p>
 
@@ -17,5 +17,5 @@ Algumas funções importantes para o desenvolvimento
   <li>Promise.all() = faz com que façamos diversas requisições ao mesmo tempo</li>
 </ul>
 
-<h2>Site hospedado para dar uma olhada no site</h2>
+<h2 <ul><li>Site hospedado para dar uma olhada no site</li></ul></h2>
 https://wevertonsantos.github.io/screenSearchCEP/
