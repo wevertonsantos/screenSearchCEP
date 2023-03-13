@@ -17,5 +17,5 @@
   <li>Promise.all() = faz com que façamos diversas requisições ao mesmo tempo</li>
 </ul>
 
-<h2><ul><li>Site hospedado para dar uma olhada no site</li></ul></h2>
+<h2>Site hospedado para dar uma olhada no site</h2>
 https://wevertonsantos.github.io/screenSearchCEP/
