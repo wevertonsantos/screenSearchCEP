@@ -10,7 +10,7 @@
   <li>Javascript</li>
 </ul>
 
-<h2>Algumas funções importantes para o desenvolvimento</h2>
+Algumas funções importantes para o desenvolvimento
 
 <ul>
   <li>Async (){ await } = programação assíncrona, executar tarefas em segundo plano.</li>
