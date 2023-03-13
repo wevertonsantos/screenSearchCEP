@@ -13,7 +13,7 @@
 Algumas funções importantes para o desenvolvimento:
 
 <ul>
-  <li>Async (){ await } = programação assíncrona, executar tarefas em segundo plano.</li>
+  <li>async function(){ await } = programação assíncrona, executar tarefas em segundo plano.</li>
   <li>Promise.all() = faz com que façamos diversas requisições ao mesmo tempo</li>
 </ul>
 
