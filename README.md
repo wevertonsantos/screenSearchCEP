@@ -2,8 +2,6 @@
 
 <p>Techs:</p>
 
-<p>Techs:</p>
-
 <ul>
   <li>HTML</li>
   <li>CSS</li>
