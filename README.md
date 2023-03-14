@@ -17,5 +17,5 @@ Algumas funções importantes para o desenvolvimento:
   <li>Promise.all() = faz com que façamos diversas requisições ao mesmo tempo</li>
 </ul>
 
-<p <ul><li>Site hospedado para dar uma olhada no site</li></ul></p>
+<h2 <ul><li>Para dar uma olhada no site</li></ul></h2>
 https://wevertonsantos.github.io/screenSearchCEP/
