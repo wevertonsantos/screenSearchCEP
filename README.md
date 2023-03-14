@@ -1,6 +1,6 @@
 <p> Página de login com uma segunda página para procura de CEP </p>
 
-<p> <ul><li> O que foi usado no desenvolvimento do site? </li></ul></p>
+<h2> <ul><li> O que foi usado no desenvolvimento do site? </li></ul></h2>
 
 <p>Techs:</p>
 
